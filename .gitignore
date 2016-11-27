@@ -1,0 +1,7 @@
+node_modules
+routes
+.idea
+.git
+views
+views_dist
+public

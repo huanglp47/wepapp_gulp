@@ -1,0 +1,525 @@
+﻿/*
+ * type: 0 出版书籍； 1：网文书籍，2：主播
+ * isVoted: 默认false,根据后台数据动态更改
+ */
+exports.hotData = [{
+    "anchor": "艾宝良",
+    "author": "何马",
+    "bookId": "1339",
+    "bookName": "藏地密码",
+    "desc": "一场穿越全球生死禁地的探险之旅,追寻藏传佛教千年隐秘历史的真相。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/43f7e81a1f8342848fc6043e0ce4946f_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "杜丽丽、李振",
+    "author": "顾漫",
+    "bookId": "7186",
+    "bookName": "何以笙箫默",
+    "desc": "痴情的等待爱情：何以笙箫默 一段年少时的爱恋，牵出一生的纠缠。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/a57afc45a2894e45907b8d85fafe8acb_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "龙人",
+    "author": "纷舞妖姬",
+    "bookId": "1887",
+    "bookName": "弹痕",
+    "desc": "将一个男人的血性，责任，执着，刚毅，柔情 展现得淋漓尽致！看得让人热血沸腾~",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/0a0e919e74cf4c5ba1f14c74a592e0f3_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "单田芳",
+    "author": "吴承恩",
+    "bookId": "5702",
+    "bookName": "西游记",
+    "desc": "广为曲解的一本书，不同的人有不同的解读，中华历史的宝库。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/6d39403e0404443b90af222181d8ca4c_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "刘艳丽",
+    "author": "饶雪漫",
+    "bookId": "28784",
+    "bookName": "左耳",
+    "desc": "甜言蜜语，说给左耳听。如果他是火，那我就是那只不计后果的愚蠢的飞蛾。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/22318a02ed7b4d6585ce7a27b7321465_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "布兰德、悠然梦",
+    "author": "顾漫",
+    "bookId": "7187",
+    "bookName": "微微一笑很倾城",
+    "desc": "“纯白的比绵羊还白”的欢乐爱情！每读一段就离负能量更远一点！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/cffbfa74d8cc4b6bbc6c6039426ff6b1_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "丛薇、边贻苗、乔菲菲",
+    "author": "刘慈欣",
+    "bookId": "29320",
+    "bookName": "三体2：黑暗森林",
+    "desc": "迄今为止中国当代最杰出的科幻小说，中国科幻文学的里程碑之作，将中国科幻推上了世界的高度。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/b43862ca059c4113a58b8d4e091b8404_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "二小姐",
+    "author": "费利克斯·萨尔腾",
+    "bookId": "5056",
+    "bookName": "小鹿斑比",
+    "desc": "小动物们该如何帮助斑比度过难关，体会“学习成长，才能不断接受挑战”的人生观？",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/c7e64314c5d44beaa91ee23809bde896_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "白云出岫、 蓝色百合",
+    "author": "曹雪芹",
+    "bookId": "5237",
+    "bookName": "红楼梦",
+    "desc": "中国最具文学成就的古典文学巨著，它是中国古典文学创作的颠峰之作，是全人类的文化瑰宝。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/7258dce293d443c597942cee80c3d7a1_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "周建龙",
+    "author": "孔二狗",
+    "bookId": "28229",
+    "bookName": "东北往事：黑道风云20年系列",
+    "desc": "“天涯社区”创立10年来最火爆、最经典、最轰动的终极完美巅峰之作。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/5294129ed2f54dd68d09579d71e240bb_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "血凝",
+    "author": "蜘蛛",
+    "bookId": "5036",
+    "bookName": "十宗罪（第四部）",
+    "desc": "四个超级警察，各怀绝技；十起恐怖凶杀，手段凶残。案情极其重口，胆小勿看。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/3c2457e4b35f4a44b7bebb70d959b4fa_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "刘烨",
+    "author": "圣埃克苏佩里",
+    "bookId": "-12",
+    "bookName": "小王子",
+    "desc": "世界经典成人童话，用浅显天真的语言写出了人类的孤独寂寞，演员刘烨倾情演绎。",
+    "isVoted": "0",
+    "pic": "/images/hot_list/bookCover/xwz_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "鸿达以太",
+    "author": "许开祯",
+    "bookId": "3900",
+    "bookName": "省委班子1、2部",
+    "desc": "道亦有道，为官道。只要有老百姓的地方就有官；只要有官的地方就有权与欲；只要有权与欲的地方就有争斗。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/0fcef9c743004ff6b96f1d9a9f8fd82c_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "鸿达以太",
+    "author": "王强",
+    "bookId": "1841",
+    "bookName": "圈子圈套1、2、3部",
+    "desc": "商圈入海，习水性者生；职场如局，明内幕者存，越是了解销售就越是厌恶，越是厌恶就越要了解。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/f0800f9d64cf440090ff0a5a6ad8314b_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "浩伦",
+    "author": "陈风",
+    "bookId": "7776",
+    "bookName": "人事",
+    "desc": "有的人为了主义，有的人为了钱权，有的人只为了活下去。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/dd32cd2973a14d5dbb8f8f1f0537b953_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "浩伦",
+    "author": "马伯庸",
+    "bookId": "19720",
+    "bookName": "古董局中局（三）：掠宝清单",
+    "desc": "浓浓的九十年代味儿，一件传世珍宝背后的故事，典型马亲王，朴实无华的精品。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/c5c6cdff99a1437d900b823ff0963325_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "韩宇",
+    "author": "箫盛",
+    "bookId": "29247",
+    "bookName": "大秦宣太后：芈氏传奇",
+    "desc": "千古太后第一人执政四十一年，纵横于列国之中。改编影视剧《芈月传》热映中。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/042ab64f9d554af0bfcdab69d51049bd_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "仿若花色",
+    "author": "唐扶摇",
+    "bookId": "29002",
+    "bookName": "我只是难过不能陪你一起老",
+    "desc": "青春散了，你走过了。我，什么也不说，却用一辈子来悼念。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/6990e83c276549a7bebf4e02680aa077_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "伊一、 知更鸟",
+    "author": "伊一",
+    "bookId": "28092",
+    "bookName": "奔跑吧，伊一",
+    "desc": "幸运从来都不是理所应当，当你在奔跑，全世界都为你赶来。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/15804f3aa89e5561641fa551_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "八音六合丶晨风 ",
+    "author": "宋鸿兵",
+    "bookId": "-20",
+    "bookName": "货币战争",
+    "desc": "一场看不见硝烟的战争，却决定着全球大国的经济命脉。世界历史金融学者宋鸿兵著。",
+    "isVoted": "0",
+    "pic": "/images/hot_list/bookCover/hbzz_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "朱宇",
+    "author": "耳根",
+    "bookId": "1377",
+    "bookName": "仙逆",
+    "desc": "自古顺天者，为天地宠儿，殊不知是蝼蚁之身!顺为凡，逆则仙，只在一念间！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/669866bf0c2348ebaf392569990d794a_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "我影随风",
+    "author": "风凌天下",
+    "bookId": "1870",
+    "bookName": "傲世九重天",
+    "desc": "舞风云、凌天下、做君主！谁陪我，琼霄舞风云？谁伴我，傲世九重天！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/6f2ca12959904057be02a3e669a51735_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "大灰狼",
+    "author": "忘语",
+    "bookId": "598",
+    "bookName": "凡人修仙传",
+    "desc": "山村小子，资质平庸，却步入修仙行列，会当绝顶巅峰，笑傲三界之中！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/605dc4fae92d4f76b3dad15ed3b1084c_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "全小全",
+    "author": "秦简",
+    "bookId": "5094",
+    "bookName": "庶女有毒",
+    "desc": "相府庶女三小姐李未央，苦熬八年，终于一朝为后，凤临天下。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/3d87accadbed420ebe05f643d2495ad7_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "糖糖",
+    "author": "安知晓",
+    "bookId": "4693",
+    "bookName": "总裁的替身前妻",
+    "desc": "安知晓总裁系列标杆之作！温柔单纯娱乐圈新星VS痴情腹黑狂霸拽总裁。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/b984f665578e460e9d952fe5590a890c_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "一杯香茗",
+    "author": "打眼",
+    "bookId": "1066",
+    "bookName": "黄金瞳",
+    "desc": "百万读者极力推荐，超亿万的疯狂点击，长期稳居起点中文网经典必读推荐榜。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/e3e96105078c46fc83cfd883b57c7bd3_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "蜡笔小勇",
+    "author": "天蚕土豆",
+    "bookId": "1778",
+    "bookName": "武动乾坤",
+    "desc": "修炼一途，乃窃阴阳，夺造化，转涅槃，握生死，掌轮回，破苍穹，动乾坤！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/282d0bed99ff4c8fa8ac96fe721f4ab4_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "大灰狼",
+    "author": "辰东",
+    "bookId": "961",
+    "bookName": "神墓",
+    "desc": "万载一梦今朝醒，抛却三千忆海，忘却诸世情仇。从此不回首，仰天长啸征天道！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/7252ba8db20947b48b5865bb6e192a20_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "张二狗",
+    "author": "崔走召 ",
+    "bookId": "343",
+    "bookName": "我当阴阳先生的那几年",
+    "desc": "物欲横流，纸醉金迷的生活里，鬼怪和人，谁才最可怕？",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/c0535f737b5d4f9191ecce41a921f72d_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "屁屁球，海风",
+    "author": "小飞鹅",
+    "bookId": "3478",
+    "bookName": "屌丝道士",
+    "desc": "一个运气差到极点的道士， 他遇到鬼的时候会惹出怎样爆笑的事端？",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/662d05b997024525bda452a252b6b18a_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "晨诵无声",
+    "author": "五志",
+    "bookId": "3120",
+    "bookName": "超级仙医",
+    "desc": "他是菜鸟校医，又是救人无数的仙医，究竟会有怎样的火花？ ",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/f998631da39d460ab3cc6690e6b2de88_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "皖宣灿灿",
+    "author": "幻雨",
+    "bookId": "202",
+    "bookName": "百炼成仙",
+    "desc": "没有灵根，却能变废为宝，平凡少年，仙路崎岖，百般磨练，终成正果！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/24d8a58ac2514133afefbc0a508e4dbb_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "章鱼",
+    "author": "霞飞双颊",
+    "bookId": "1805",
+    "bookName": "召唤万岁",
+    "desc": "不谈国事，只谈风月！神兽了不起吗？给我死开点，老子只喜欢美女召唤兽！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/4a0265331e014d95aace4ba641dbe893_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "家芮",
+    "author": "吃草的老羊",
+    "bookId": "5077",
+    "bookName": "重生校园之商女",
+    "desc": "重生出现的异能，精彩的赌石，美丽的翡翠，一段绚丽的人生！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/dece7fef199745b89f427726b54b428f_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "第二城子",
+    "author": "带玉",
+    "bookId": "4692",
+    "bookName": "我的贴身校花",
+    "desc": "清纯校花，傲娇校花，野辣校花，都来贴身，想拥有她们吗？那就来吧。",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/a55787d0f9254454b0f641eb0f41ef62_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "周建龙",
+    "author": "南派三叔 ",
+    "bookId": "656",
+    "bookName": "盗墓笔记（一）：七星鲁王宫",
+    "desc": "盗墓第一个故事，且听吴邪的第一次下地，闷油瓶的力挽狂澜！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/6e10ec4247804c13a42633bf1bafbd4c_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "御剑听风",
+    "author": "唐家三少",
+    "bookId": "2880",
+    "bookName": "绝世唐门",
+    "desc": "一代天骄横空出世，唐门能否重现辉煌，唐门暗器能否重振雄风，谱写绝世之歌？",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/ff4e6633ca0045bfb486b7a68fc76e0a_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "晨诵无声",
+    "author": "唐家三少",
+    "bookId": "199",
+    "bookName": "斗罗大陆",
+    "desc": "天才唐三，异世修行，唐门暗器来到斗罗大陆，唐三能否振兴唐门之梦？",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/08422c08426141db8c42ffb7bce64f71_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "柴少鸿",
+    "author": "曾呓",
+    "bookId": "5314",
+    "bookName": "至尊小农民",
+    "desc": "乡村不是低端的代名词，且看我们的主角乡村少年是如何写就不一样的人生？",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/7f1dfd6c1f3d4a72a9376a010b48b550_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "华风神韵",
+    "author": "我吃西红柿",
+    "bookId": "206",
+    "bookName": "吞噬星空",
+    "desc": "一个浩瀚广阔、神秘莫测的未来世界，万物优胜劣汰，吞噬是唯一的王道！",
+    "isVoted": "0",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/ac8290599d904659bf1b84666dee09ea_180x254.jpg",
+    "voteCount": "0"
+}, {
+    "anchor": "朱宇",
+    "anchorId": "79939500",
+    "desc": "热爱与声音有关的一切事情：播音、主持、配音、朗诵。",
+    "isVoted": "0",
+    "masterPiece": "仙逆",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/zhuyu0?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450540900&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:wbgfBjyCZ3UOlcr13ExLEymEzEY=",
+    "voteCount": "0"
+}, {
+    "anchor": "我影随风",
+    "anchorId": "79939517",
+    "desc": "一个热爱讲故事的人，用声音演绎精彩世界！",
+    "isVoted": "0",
+    "masterPiece": "傲世九重天",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/woyingsuifeng?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450540933&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:EF-b7Yl0jdkzlQ-rNbqMiLYl4fo=",
+    "voteCount": "0"
+}, {
+    "anchor": "糖糖",
+    "anchorId": "79939524",
+    "desc": "总裁类有声书籍专业户，另有代表作《薄情总裁强制爱》。",
+    "isVoted": "0",
+    "masterPiece": "总裁的替身前妻",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/tangtang0?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450454498&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:FaVnHEj_fywWVCi3rS0FgXvG8fE=",
+    "voteCount": "0"
+}, {
+    "anchor": "全小全",
+    "anchorId": "79939779",
+    "desc": "知名网络小说演播客，另有代表作《脂粉有灵》。",
+    "isVoted": "0",
+    "masterPiece": "庶女有毒",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/quanxiaoquan?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450454498&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:t6vX7M4oh7q01Oo59lJAISdkMng=",
+    "voteCount": "0"
+}, {
+    "anchor": "张二狗",
+    "anchorId": "64949898",
+    "desc": "网络知名播客，播讲风格灵活多变，嗓音纯正富有磁性。",
+    "isVoted": "0",
+    "masterPiece": "我当阴阳先生的那几年",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/cool-zs@163.com?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450448055&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:7O1-I6Zp7HIKdWRRO3PP95_w6f4=",
+    "voteCount": "0"
+}, {
+    "anchor": "蜡笔小勇",
+    "anchorId": "79939522",
+    "desc": "广播剧配音演员，有声小说配音员CV。",
+    "isVoted": "0",
+    "masterPiece": "武动乾坤",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/labixiaoyong?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450454570&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:pmeokccQY1VXPD6vi1PXoV3uLxo=",
+    "voteCount": "0"
+}, {
+    "anchor": "皖宣灿灿",
+    "anchorId": "79939520",
+    "desc": "用声音温暖世界，喜欢播音。",
+    "isVoted": "0",
+    "masterPiece": "百炼成仙",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/wanxuancancan?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450368283&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:7sZ60yoVoBbxC8CVrzb8ci4qTPs=",
+    "voteCount": "0"
+}, {
+    "anchor": "晨诵无声",
+    "anchorId": "79939530",
+    "desc": "职业人民教师，爱好体育、播音，是一位著名的有声小说播音员，其有声代表作品有：斗罗大陆 、三国重生之我是路人甲、九鼎记、天珠变、永生等大家熟悉的作品！",
+    "isVoted": "0",
+    "masterPiece": "斗罗大陆",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/chensongwusheng?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450387063&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:knJgR3Z-X9tiJgh2rNCcFQvdE8c=",
+    "voteCount": "0"
+}, {
+    "anchor": "周建龙",
+    "anchorId": "79939527",
+    "desc": "著名话剧编导、导演、演员，以播音作品《鬼吹灯》《盗墓笔记》红遍全国，又称散仙建龙。",
+    "isVoted": "0",
+    "masterPiece": "盗墓笔记",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/zhoujianlong?imageMogr/v2/auto-orient/thumbnail/180x180&e=1451145879&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:oEpJ_7t4j2I9I5G1IKVd7TNhmTc=",
+    "voteCount": "0"
+}, {
+    "anchor": "家芮",
+    "anchorId": "71420654",
+    "desc": "天籁梵音广播剧社网配CV军刺，也是商配、有声播客。",
+    "isVoted": "0",
+    "masterPiece": " 重生校园之商女",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/8eb8b24157e0434d9c38904abbed251b.jpg?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450387055&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:NUXZsr2LzYeUfPfNw9OpNLjnq6Q=",
+    "voteCount": "0"
+}, {
+    "anchor": "第二城子",
+    "anchorId": "79939552",
+    "desc": "网络小说专职播客，另有代表作《冒牌大英雄》。",
+    "isVoted": "0",
+    "masterPiece": "我的贴身校花",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/dierchengzi?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450368217&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:uu3HjP1PUVc63UAFalTwd7jq9E0=",
+    "voteCount": "0"
+}, {
+    "anchor": "华风神韵",
+    "anchorId": "79939543",
+    "desc": "从事电视工作近二十年，在播音主持的岗位上一直努力。",
+    "isVoted": "0",
+    "masterPiece": "吞噬星空",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/huafengshenyun?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450368288&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:Kt70-gsBHyOGE0g6FycGmFvfHgk=",
+    "voteCount": "0"
+}, {
+    "anchor": "钧浩",
+    "anchorId": "79939539",
+    "desc": "有声小说播音员钧浩，另有代表作：《因一具女尸》《活祭》等。",
+    "isVoted": "0",
+    "masterPiece": "很纯很暧昧",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/junhao0?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450368286&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:-_fSWTy4MBprZ55ksFKZpQkPfY8=",
+    "voteCount": "0"
+}, {
+    "anchor": "柴少鸿",
+    "anchorId": "79939585",
+    "desc": "曾用播音名“碎梦刀”发布作品，圈内人称“刀哥”。艾先生第三位弟子，擅长儿童文学、幽默搞笑、玄幻恐怖、军事刑侦。",
+    "isVoted": "0",
+    "masterPiece": "至尊小农民",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/chaishaohong?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450540933&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:LHM5YsCkWlDI-pYdDpoQ8kHCs4g=",
+    "voteCount": "0"
+}, {
+    "anchor": "艾宝良",
+    "anchorId": "79939558",
+    "desc": "播讲作品超过一百部。把小说讲得活灵活现，让你感觉自己不像是在听故事、而是在看故事。",
+    "isVoted": "0",
+    "masterPiece": "鬼吹灯",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/aibaoliang?imageMogr/v2/auto-orient/thumbnail/180x180&e=1451145863&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:Reue1h5moITKQJJI-HIxz7mDX_s=",
+    "voteCount": "0"
+}, {
+    "anchor": "瘦了又瘦",
+    "anchorId": "79939598",
+    "desc": "热爱有声小说，知名网络播客，擅长玄幻奇幻类有声书籍。",
+    "isVoted": "0",
+    "masterPiece": "神印王座",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/shouliaoyoushou?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450368301&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:YQnkTcXfGKBf3kwNfgKHBnFiRnY=",
+    "voteCount": "0"
+}, {
+    "anchor": "悠然梦",
+    "anchorId": "79939564",
+    "desc": "有声小说播客、配音；网络有声文学播音。嗓音甜美，播讲作品众多。",
+    "isVoted": "0",
+    "masterPiece": "天珠变",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/youranmeng?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450368240&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:COIm_uFEW7k9Kd2rDt8OIATX0yY=",
+    "voteCount": "0"
+}, {
+    "anchor": "微笑的苹果",
+    "anchorId": "79939540",
+    "desc": "网络知名播客，其声音清新甜美；曾演播过多部网络小说；其他演播作品：《我的女皇上司》《BOSS，请自重》《我的美女大小姐》《天生神医》。",
+    "isVoted": "0",
+    "masterPiece": "我的美女大小姐",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/weixiaodepingguo?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450535009&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:13Zbs8c6bGZvCLJoaTLLk1R92EY=",
+    "voteCount": "0"
+}, {
+    "anchor": "有声刘忙",
+    "anchorId": "95128676",
+    "desc": "著名网络小说播客，有自己独特的忙式风格。",
+    "isVoted": "0",
+    "masterPiece": "史上第一混乱",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/16c063a946f04159bf5746c28c251052?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450540967&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:gLMA3OEcGNSYrtKYG-C884--24k=",
+    "voteCount": "0"
+}, {
+    "anchor": "神秘kook",
+    "anchorId": "49589712",
+    "desc": "著名网络小说播客，插画师，微频道手绘大神。",
+    "isVoted": "0",
+    "masterPiece": "我跟爷爷去捉鬼",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/kook@qq.com?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450560450&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:2cpUzTHvoW2YAf-Cwp6wrEW7IGs=",
+    "voteCount": "0"
+}]

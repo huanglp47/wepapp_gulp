@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+      <title>懒人听书</title>
+      <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	 <meta name="apple-mobile-web-app-capable" content="yes">
+	 <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	 <meta name="format-detection" content="telephone=no">
+	 <style type="text/css">
+		input,textarea{
+			box-sizing:border-box;
+			height:30px;
+			width:100%;
+			border:1px solid #ddd;
+			padding:5px;
+		}
+		textarea{
+			height:80px;
+		}
+		fieldset,dl,dd,dt{
+			border:0;
+			margin:0;
+			padding:0;
+		}
+		dt{
+			margin:10px 0;
+		}
+		dl{
+			margin:20px 0;
+		}
+	 </style>
+  </head>
+<body>
+	<div>
+		<fieldset>
+			<dl>
+				<dt>页面标题:</dt>
+				<dd>
+					<input type="text" name="title"/>
+				</dd>
+			</dl>
+			<dl>
+				<dt>页面内容:</dt>
+				<dd>
+					<textarea name="text"></textarea>
+				</dd>
+			</dl>
+			<dl>
+				<dt>按钮文本:</dt>
+				<dd><input type="text" name="btnText" /></dd>
+			</dl>
+			<dl>
+				<dt>按钮URL:</dt>
+				<dd><input type="text" name="btnUrl" /></dd>
+			</dl>
+			<dl>
+				<dt>启动app链接地址:</dt>
+				<dd><input type="text" name="runUrl" /></dd>
+			</dl>
+			<button id="encode" type="button">生成URL</button>
+		</fieldset>
+		<textarea id="url"></textarea>
+		<!--
+		<button id="encode" type="button">encode转码</button>
+		<button id="decode" type="button">decode解码</button>
+		-->
+	</div>
+	<script src="http://assets.lrts.me/plugins/js/zepto.min.js"></script>
+	<script type="text/javascript">
+        window.onload=function(){
+			//var text=document.getElementById('text');
+			
+			document.getElementById('encode').onclick=function(){
+				var url='http://m.lrts.me/runapp.html?'
+				$('fieldset textarea,fieldset input').each(function(){
+					url+=$(this).attr('name')+'='+encodeURIComponent($(this).val())+'&';
+				})
+				document.getElementById('url').value=url.replace(/&$/g,'');
+			}
+		}
+	</script>
+</body>

@@ -1,0 +1,4 @@
+/**
+ * Date:Sun Nov 27 2016 17:17:12 GMT+0800 (中国标准时间)
+ */
+!function(){var e={runApp:function(e){e&&(this.isAboveIos9()?location.href=e:($("body").append('<iframe style="height:0px;visibility:hidden;position:absolute;" src="'+e+'" frameborder="0"></iframe>'),setTimeout(function(){$("iframe").remove()},1e3)))},isAboveIos9:function(){var e=navigator.userAgent;if(e.match(/iPhone|iPad|iPod/i)){var i=e.match(/OS (\d+)_(\d+)_?(\d+)?/);return i=parseInt(i[1],10),i>=9}return!1},parseUrl:function(e){if(this.isType("String")(e)){e=decodeURI(e);for(var i,r={},n=/([^#?=&]+)=([^&]+)/gi;null!=(i=n.exec(e));)r[i[1]]=i[2];return r}},isType:function(e){return function(i){return{}.toString.call(i)==="[object "+e+"]"}}},i=$("#runApp").val();i&&e.parseUrl(i).access_token&&e.runApp(i)}();

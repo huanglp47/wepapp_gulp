@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+      <title>懒人听书</title>
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+  </head>
+</head>
+<body>
+	<a href="sinaweibo://infopage?containerid=100140E414042">正在打开微博...</a>
+    <script type="text/javascript" src="http://assets.lrts.me/plugins/js/zepto.min.js"></script>
+	<script type="text/javascript">
+        $(function(){
+            $('body').append('<iframe style="height:0px;visibility:hidden;" src="sinaweibo://infopage?containerid=100140E414042" frameborder="0"></iframe>');
+            setTimeout(function(){
+                location.href="http://event.weibo.com/event/mobile/page?containerid=100140E414042";
+            },1500);
+        });
+	</script>
+</body>

@@ -1,0 +1,368 @@
+exports.arr_chang_qing = [{
+    "anchor": "朱宇",
+    "author": "耳根",
+    "bookId": "1377",
+    "bookName": "仙逆",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/669866bf0c2348ebaf392569990d794a_180x254.jpg",
+    "playCount": "285290062"
+}, {
+    "anchor": "大灰狼",
+    "author": "忘语",
+    "bookId": "598",
+    "bookName": "凡人修仙传",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/605dc4fae92d4f76b3dad15ed3b1084c_180x254.jpg",
+    "playCount": "166720908"
+}, {
+    "anchor": "我影随风",
+    "author": "风凌天下",
+    "bookId": "1870",
+    "bookName": "傲世九重天",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/6f2ca12959904057be02a3e669a51735_180x254.jpg",
+    "playCount": "162365605"
+}, {
+    "anchor": "单田芳",
+    "author": "单田芳",
+    "bookId": "425",
+    "bookName": "白眉大侠",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/474a7cf406f98b5d966_180x254.jpg",
+    "playCount": "93246016"
+}, {
+    "anchor": "全小全",
+    "author": "秦简",
+    "bookId": "5094",
+    "bookName": "庶女有毒",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/3d87accadbed420ebe05f643d2495ad7_180x254.jpg",
+    "playCount": "91209580"
+}, {
+    "anchor": "糖糖",
+    "author": "安知晓",
+    "bookId": "4693",
+    "bookName": "总裁的替身前妻",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/b984f665578e460e9d952fe5590a890c_180x254.jpg",
+    "playCount": "90861707"
+}, {
+    "anchor": "一杯香茗",
+    "author": "打眼",
+    "bookId": "1066",
+    "bookName": "黄金瞳",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/e3e96105078c46fc83cfd883b57c7bd3_180x254.jpg",
+    "playCount": "75924292"
+}, {
+    "anchor": "张二狗",
+    "author": "崔走召",
+    "bookId": "343",
+    "bookName": "我当阴阳先生的那几年",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/c0535f737b5d4f9191ecce41a921f72d_180x254.jpg",
+    "playCount": "73514765"
+}, {
+    "anchor": "蜡笔小勇",
+    "author": "天蚕土豆",
+    "bookId": "1778",
+    "bookName": "武动乾坤",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/282d0bed99ff4c8fa8ac96fe721f4ab4_180x254.jpg",
+    "playCount": "70382914"
+}, {
+    "anchor": "大灰狼",
+    "author": "辰东",
+    "bookId": "961",
+    "bookName": "神墓",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/7252ba8db20947b48b5865bb6e192a20_180x254.jpg",
+    "playCount": "69622584"
+}];
+exports.arr_fei_yue = [{
+    "anchor": "神秘kook",
+    "author": "三两二钱",
+    "bookId": "29168",
+    "bookName": "最后一个阴阳师",
+    "onlineDays": "42",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/e6fd73686b42497d9fb5382685b734a2_180x254.jpg",
+    "playCount": "13966939",
+    "playCountByDay": "332546"
+}, {
+    "anchor": "舒湘",
+    "author": "高架红绿灯",
+    "bookId": "29053",
+    "bookName": "捡漏",
+    "onlineDays": "59",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/e7138b51a9d6482b8bb2a231d34f9a63_180x254.jpg",
+    "playCount": "14660967",
+    "playCountByDay": "248491"
+}, {
+    "anchor": "韩宇",
+    "author": "箫盛",
+    "bookId": "29247",
+    "bookName": "大秦宣太后：芈氏传奇",
+    "onlineDays": "27",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/042ab64f9d554af0bfcdab69d51049bd_180x254.jpg",
+    "playCount": "6561873",
+    "playCountByDay": "243032"
+}, {
+    "anchor": "为何",
+    "author": "夜惠美",
+    "bookId": "28572",
+    "bookName": "妻居一品",
+    "onlineDays": "142",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/e87a0e6e98054cafaf7d5034bc0e0018_180x254.jpg",
+    "playCount": "28553033",
+    "playCountByDay": "201078"
+}, {
+    "anchor": "小歪",
+    "author": "汉宝",
+    "bookId": "28982",
+    "bookName": "异世医仙",
+    "onlineDays": "72",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/5f55b5bceb4d4c429fda04441122ce5e_180x254.jpg",
+    "playCount": "12339435",
+    "playCountByDay": "171381"
+}, {
+    "anchor": "小逗逗儿",
+    "author": "孤单地飞",
+    "bookId": "29029",
+    "bookName": "网游之战御天下",
+    "onlineDays": "64",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/b932e24bab72403cbae8be60ef592ea5_180x254.jpg",
+    "playCount": "9536726",
+    "playCountByDay": "149011"
+}, {
+    "anchor": "何其、 高莹、 张升",
+    "author": "蜘蛛",
+    "bookId": "29307",
+    "bookName": "十宗罪（第一部）",
+    "onlineDays": "15",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/d7999e5039fe4061b10b689520c916ae_180x254.jpg",
+    "playCount": "2046306",
+    "playCountByDay": "136420"
+}, {
+    "anchor": "冰舞·璇",
+    "author": "紫烟若凝",
+    "bookId": "29310",
+    "bookName": "惹上腹黑首席",
+    "onlineDays": "14",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/d8819e3a9eb749c2acb5dfcc80fe1882_180x254.jpg",
+    "playCount": "1685991",
+    "playCountByDay": "120428"
+}, {
+    "anchor": "贰飛",
+    "author": "全雨",
+    "bookId": "29208",
+    "bookName": "极度尸寒",
+    "onlineDays": "35",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/f261ace0fb1c4a1a953b0fd25a4901b9_180x254.jpg",
+    "playCount": "3887252",
+    "playCountByDay": "111064"
+}, {
+    "anchor": "御剑听风",
+    "author": "鱼人二代",
+    "bookId": "28271",
+    "bookName": "校花的贴身高手",
+    "onlineDays": "163",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/599df47db53b430c882b046dfc38965b_180x254.jpg",
+    "playCount": "15056811",
+    "playCountByDay": "92373"
+}];
+
+exports.arr_chu_ban = [{
+    "anchor": "杜丽丽、李振",
+    "author": "顾漫",
+    "bookId": "7186",
+    "bookName": "何以笙箫默",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/a57afc45a2894e45907b8d85fafe8acb_180x254.jpg",
+    "voteCount": "71088"
+}, {
+    "anchor": "布兰德、悠然梦",
+    "author": "顾漫",
+    "bookId": "7187",
+    "bookName": "微微一笑很倾城",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/cffbfa74d8cc4b6bbc6c6039426ff6b1_180x254.jpg",
+    "voteCount": "70522"
+}, {
+    "anchor": "艾宝良",
+    "author": "何马",
+    "bookId": "1339",
+    "bookName": "藏地密码",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/43f7e81a1f8342848fc6043e0ce4946f_180x254.jpg",
+    "voteCount": "57807"
+}, {
+    "anchor": "仿若花色",
+    "author": "唐扶摇",
+    "bookId": "29002",
+    "bookName": "我只是难过不能陪你一起老",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/6990e83c276549a7bebf4e02680aa077_180x254.jpg",
+    "voteCount": "40256"
+}, {
+    "anchor": "龙人",
+    "author": "纷舞妖姬",
+    "bookId": "1887",
+    "bookName": "弹痕",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/0a0e919e74cf4c5ba1f14c74a592e0f3_180x254.jpg",
+    "voteCount": "35429"
+}, {
+    "anchor": "刘艳丽",
+    "author": "饶雪漫",
+    "bookId": "28784",
+    "bookName": "左耳",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/22318a02ed7b4d6585ce7a27b7321465_180x254.jpg",
+    "voteCount": "33957"
+}, {
+    "anchor": "单田芳",
+    "author": "吴承恩",
+    "bookId": "5702",
+    "bookName": "西游记",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/6d39403e0404443b90af222181d8ca4c_180x254.jpg",
+    "voteCount": "33518"
+}, {
+    "anchor": "周建龙",
+    "author": "孔二狗",
+    "bookId": "28229",
+    "bookName": "东北往事：黑道风云20年系列",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/5294129ed2f54dd68d09579d71e240bb_180x254.jpg",
+    "voteCount": "32524"
+}, {
+    "anchor": "韩宇",
+    "author": "箫盛",
+    "bookId": "29247",
+    "bookName": "大秦宣太后：芈氏传奇",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/042ab64f9d554af0bfcdab69d51049bd_180x254.jpg",
+    "voteCount": "29868"
+}, {
+    "anchor": "刘烨",
+    "author": "圣埃克苏佩里",
+    "bookId": "-10",
+    "bookName": "小王子",
+    "pic": "/images/hot_list/bookCover/xwz_180x254.jpg",
+    "voteCount": "27347"
+}];
+
+exports.arr_wang_luo = [{
+    "anchor": "全小全",
+    "author": "秦简",
+    "bookId": "5094",
+    "bookName": "庶女有毒",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/3d87accadbed420ebe05f643d2495ad7_180x254.jpg",
+    "voteCount": "56278"
+}, {
+    "anchor": "朱宇",
+    "author": "耳根",
+    "bookId": "1377",
+    "bookName": "仙逆",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/669866bf0c2348ebaf392569990d794a_180x254.jpg",
+    "voteCount": "39771"
+}, {
+    "anchor": "大灰狼",
+    "author": "忘语",
+    "bookId": "598",
+    "bookName": "凡人修仙传",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/605dc4fae92d4f76b3dad15ed3b1084c_180x254.jpg",
+    "voteCount": "32840"
+}, {
+    "anchor": "张二狗",
+    "author": "崔走召 ",
+    "bookId": "343",
+    "bookName": "我当阴阳先生的那几年",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/c0535f737b5d4f9191ecce41a921f72d_180x254.jpg",
+    "voteCount": "29084"
+}, {
+    "anchor": "周建龙",
+    "author": "南派三叔",
+    "bookId": "656",
+    "bookName": "盗墓笔记（一）：七星鲁王宫",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/6e10ec4247804c13a42633bf1bafbd4c_180x254.jpg",
+    "voteCount": "26340"
+}, {
+    "anchor": "我影随风",
+    "author": "风凌天下",
+    "bookId": "1870",
+    "bookName": "傲世九重天",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/6f2ca12959904057be02a3e669a51735_180x254.jpg",
+    "voteCount": "22947"
+}, {
+    "anchor": "糖糖",
+    "author": "安知晓",
+    "bookId": "4693",
+    "bookName": "总裁的替身前妻",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/b984f665578e460e9d952fe5590a890c_180x254.jpg",
+    "voteCount": "21003"
+}, {
+    "anchor": "晨诵无声",
+    "author": "唐家三少",
+    "bookId": "199",
+    "bookName": "斗罗大陆",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/08422c08426141db8c42ffb7bce64f71_180x254.jpg",
+    "voteCount": "18527"
+}, {
+    "anchor": "御剑听风",
+    "author": "唐家三少",
+    "bookId": "2880",
+    "bookName": "绝世唐门",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/ff4e6633ca0045bfb486b7a68fc76e0a_180x254.jpg",
+    "voteCount": "17951"
+}, {
+    "anchor": "家芮",
+    "author": "吃草的老羊",
+    "bookId": "5077",
+    "bookName": "重生校园之商女",
+    "pic": "http://78rbm4.com2.z0.glb.qiniucdn.com/dece7fef199745b89f427726b54b428f_180x254.jpg",
+    "voteCount": "17368"
+}];
+
+exports.arr_zhu_bo = [{
+    "anchor": "有声刘忙",
+    "anchorId": "95128676",
+    "masterPiece": "史上第一混乱",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/16c063a946f04159bf5746c28c251052?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450540967&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:gLMA3OEcGNSYrtKYG-C884--24k=",
+    "voteCount": "48562"
+}, {
+    "anchor": "周建龙",
+    "anchorId": "79939527",
+    "masterPiece": "盗墓笔记",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/zhoujianlong?imageMogr/v2/auto-orient/thumbnail/180x180&e=1451145879&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:oEpJ_7t4j2I9I5G1IKVd7TNhmTc=",
+    "voteCount": "41772"
+}, {
+    "anchor": "全小全",
+    "anchorId": "79939779",
+    "masterPiece": "庶女有毒",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/quanxiaoquan?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450454498&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:t6vX7M4oh7q01Oo59lJAISdkMng=",
+    "voteCount": "38198"
+}, {
+    "anchor": "张二狗",
+    "anchorId": "64949898",
+    "masterPiece": "我当阴阳先生的那几年",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/cool-zs@163.com?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450448055&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:7O1-I6Zp7HIKdWRRO3PP95_w6f4=",
+    "voteCount": "30475"
+}, {
+    "anchor": "悠然梦",
+    "anchorId": "79939564",
+    "masterPiece": "天珠变",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/youranmeng?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450368240&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:COIm_uFEW7k9Kd2rDt8OIATX0yY=",
+    "voteCount": "28251"
+}, {
+    "anchor": "朱宇",
+    "anchorId": "79939500",
+    "masterPiece": "仙逆",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/zhuyu0?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450540900&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:wbgfBjyCZ3UOlcr13ExLEymEzEY=",
+    "voteCount": "26449"
+}, {
+    "anchor": "神秘kook",
+    "anchorId": "49589712",
+    "masterPiece": "我跟爷爷去捉鬼",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/kook@qq.com?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450560450&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:2cpUzTHvoW2YAf-Cwp6wrEW7IGs=",
+    "voteCount": "21292"
+}, {
+    "anchor": "艾宝良",
+    "anchorId": "79939558",
+    "masterPiece": "鬼吹灯",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/aibaoliang?imageMogr/v2/auto-orient/thumbnail/180x180&e=1451145863&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:Reue1h5moITKQJJI-HIxz7mDX_s=",
+    "voteCount": "20553"
+}, {
+    "anchor": "晨诵无声",
+    "anchorId": "79939530",
+    "masterPiece": "斗罗大陆",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/chensongwusheng?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450387063&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:knJgR3Z-X9tiJgh2rNCcFQvdE8c=",
+    "voteCount": "17962"
+}, {
+    "anchor": "糖糖",
+    "anchorId": "79939524",
+    "masterPiece": "总裁的替身前妻",
+    "pic": "http://785j53.com2.z0.glb.qiniucdn.com/tangtang0?imageMogr/v2/auto-orient/thumbnail/180x180&e=1450454498&token=OOHK9_MIwdSJxAHYi5os2taDVS13CVvcEa1cZDb9:FaVnHEj_fywWVCi3rS0FgXvG8fE=",
+    "voteCount": "16859"
+}];

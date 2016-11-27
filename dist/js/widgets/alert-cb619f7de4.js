@@ -1,0 +1,4 @@
+/**
+ * Date:Sun Nov 27 2016 17:17:12 GMT+0800 (中国标准时间)
+ */
+define(function(require,exports,module){var t='<div class="crm_prompt_box"><span class="crm_prompt_image hide"></span><span class="crm_prompt_text ">{text}</span></div>',e={alertObj:null,timer:null,timeout:2500,show:function(e,i,s){var n=t.replace(/{text}/,e),i=i||this.timeout,r=this;this.close(),this.alertObj=$(n),$(document.body).append(this.alertObj),this.setPosition(s),this.timer=setTimeout(function(){r.close()},i)},close:function(){clearTimeout(this.timer),this.alertObj&&this.alertObj.remove(),this.alertObj=null},setPosition:function(t){var e=$(window).width(),i=$(window).height(),s=$(this.alertObj).width(),n=$(this.alertObj).height(),r=parseInt($(this.alertObj).css("paddingLeft"),10),a=parseInt($(this.alertObj).css("paddingTop"),10),o={},l={},h=0,p=0;h=.5*(e-s-2*r),p=.5*(i-n-2*a),o={left:h+"px",top:p+"px",textAlign:"center"},l=$.extend({},o,t),this.alertObj.css(l)}};module.exports=e});
