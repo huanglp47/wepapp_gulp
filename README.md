@@ -1,72 +1,74 @@
-## »ùÓÚgulpµÄÇ°¶Ë×Ô¶¯»¯½â¾ö·½°¸
+## åŸºäºgulpçš„å‰ç«¯è‡ªåŠ¨åŒ–è§£å†³æ–¹æ¡ˆ
 
-### 1.Gulp¼ò½é
+### 1.Gulpç®€ä»‹
 
-¸ÅÄî£ºgulp,node,npm¡£
+æ¦‚å¿µï¼šgulp,node,npmã€‚
 
 #### 1.1 gulp
 
-Gulp.js ÊÇÒ»¸ö×Ô¶¯»¯¹¹½¨¹¤¾ß£¬Ê¹ÓÃJavaScript±àĞ´¡£
+Gulp.js æ˜¯ä¸€ä¸ªè‡ªåŠ¨åŒ–æ„å»ºå·¥å…·ï¼Œä½¿ç”¨JavaScriptç¼–å†™ã€‚
 
-Gulp.js ÊÇ»ùÓÚ Node.js ¹¹½¨µÄ£¬ÀûÓÃ Node.js Á÷µÄÍşÁ¦£¬¿ÉÒÔ¿ìËÙ¹¹½¨ÏîÄ¿²¢¼õÉÙÆµ·±µÄ IO ²Ù×÷¡£
+Gulp.js æ˜¯åŸºäº Node.js æ„å»ºçš„ï¼Œåˆ©ç”¨ Node.js æµçš„å¨åŠ›ï¼Œå¯ä»¥å¿«é€Ÿæ„å»ºé¡¹ç›®å¹¶å‡å°‘é¢‘ç¹çš„ IO æ“ä½œã€‚
 
-GulpĞèÒª°²×°²å¼şÍê³É¹¹½¨ÈÎÎñ¡£ĞèÒªnpm¹ÜÀí¹¤¾ß¡£
+Gulpéœ€è¦å®‰è£…æ’ä»¶å®Œæˆæ„å»ºä»»åŠ¡ã€‚éœ€è¦npmç®¡ç†å·¥å…·ã€‚
 
 #### 1.2 npm
-NPMÊÇËæÍ¬NodeJSÒ»Æğ°²×°µÄ°ü¹ÜÀí¹¤¾ß¡£
+NPMæ˜¯éšåŒNodeJSä¸€èµ·å®‰è£…çš„åŒ…ç®¡ç†å·¥å…·ã€‚
 
-Tip: ¹úÄÚÖ±½ÓÊ¹ÓÃ npm µÄ¹Ù·½¾µÏñÊÇ·Ç³£ÂıµÄ£¬ÍÆ¼öÊ¹ÓÃÌÔ±¦ NPM ¾µÏñ
-npm install cnpm -g --registry=https://registry.npm.taobao.org£¬È»ºóÔÙcnpm install [name]
+Tip: å›½å†…ç›´æ¥ä½¿ç”¨ npm çš„å®˜æ–¹é•œåƒæ˜¯éå¸¸æ…¢çš„ï¼Œæ¨èä½¿ç”¨æ·˜å® NPM é•œåƒ
+npm install cnpm -g --registry=https://registry.npm.taobao.orgï¼Œç„¶åå†cnpm install [name]
 
-(Ê¹ÓÃcnpmºówebstorm¿¨ËÀµÄ½â¾ö·½·¨£ºnode_modules ÓÒ¼ü mark directory as > excluded WEBSTORM ¾Í²»»á¿¨ËÀÁË)
-#### 1.3 gulp°²×°
-Ê×ÏÈ£¬ĞèÒªÔÚÈ«¾Ö°²×°Gulp°ü£ºnpm install -g gulp
+(ä½¿ç”¨cnpmåwebstormå¡æ­»çš„è§£å†³æ–¹æ³•ï¼šnode_modules å³é”® mark directory as > excluded WEBSTORM å°±ä¸ä¼šå¡æ­»äº†)
+#### 1.3 gulpå®‰è£…
+é¦–å…ˆï¼Œéœ€è¦åœ¨å…¨å±€å®‰è£…GulpåŒ…ï¼šnpm install -g gulp
 
-È»ºó£¬ÔÚÏîÄ¿ÀïÃæ°²×°Gulp£ºnpm install --save-dev  gulp
+ç„¶åï¼Œåœ¨é¡¹ç›®é‡Œé¢å®‰è£…Gulpï¼šnpm install --save-dev  gulp
 
-ÆäËû²å¼ş°²×°£º
+å…¶ä»–æ’ä»¶å®‰è£…ï¼š
 (cnpm) npm install gulp-jshint gulp-sass gulp-concat gulp-uglify gulp-rename --save-dev
-»òÕßÔÚÒÑÓĞpackage.jsonÇé¿öÏÂÖ±½Ó (cnpm) npm install
-### 2.Òµ½çÇ°¶Ë¹¤³Ì»¯½â¾ö·½°¸
-Ä¿Ç°Òµ½çµÄ×îÖ÷Á÷µÄ½â¾ö·½°¸ÓĞÒÔÏÂ¼¸ÖÖ£º
+æˆ–è€…åœ¨å·²æœ‰package.jsonæƒ…å†µä¸‹ç›´æ¥ (cnpm) npm install
+### 2.ä¸šç•Œå‰ç«¯å·¥ç¨‹åŒ–è§£å†³æ–¹æ¡ˆ
+ç›®å‰ä¸šç•Œçš„æœ€ä¸»æµçš„è§£å†³æ–¹æ¡ˆæœ‰ä»¥ä¸‹å‡ ç§ï¼š
 
-¹úÄÚ£ºfis£¨°Ù¶È£©
+å›½å†…ï¼šfisï¼ˆç™¾åº¦ï¼‰
 
-Ç°¶ËÉçÇø£ºgrunt, gulp, webpack
-### 3.ÒıÈëgulp½â¾öµÄÎÊÌâ
-¹¤¾ß£ºgulp£¨ÀàËÆjavaµÄmaven,ant...£©¼°Æä²å¼ş¡£
+å‰ç«¯ç¤¾åŒºï¼šgrunt, gulp, webpack
+### 3.å¼•å…¥gulpè§£å†³çš„é—®é¢˜
+å·¥å…·ï¼šgulpï¼ˆç±»ä¼¼javaçš„maven,ant...ï¼‰åŠå…¶æ’ä»¶ã€‚
 
-»·¾³£ºnodejs¡£
+ç¯å¢ƒï¼šnodejsã€‚
 
-Ä¿±ê£º
-* Js,css, Í¼Æ¬Ñ¹Ëõ£¨gulp-uglify£¬gulp-minify-css£¬ gulp-imagemin£©¡£
-* js,css¹«ÓÃÎÄ¼ş½øĞĞºÏ²¢£¨gulp-concat£©£¬¼õÉÙhttpÇëÇó¡£
-* Ç°¶Ë×ÊÔ´Â·¾¶Ìæ»»,ÈçÌæ»»Ò³Ãæ×ÊÔ´ÒıÓÃ£¨gulp-rev£¬gulp-rev-collector£©¡£
-* ¾²Ì¬×ÊÔ´cdn²¿Êğ.£¨Í¨¹ı²ÎÊıÅäÖÃ£¬ÊµÏÖ±¾µØ¿ª·¢ÓëÏßÉÏÇĞ»»£©¡£
-* cdn»º´æ´¦Àí£¨Ê¹ÓÃMD5Ìæ»»£¬ÀàËÆ£º½«a.jsÌæ»»Îªa-sdf10de34.js£©¡£
-¹ı³Ì£º
-node»·¾³ÏÂ°²×°gulpÒÔ¼°gulp²å¼ş£¬È»ºóµ±Ç°Ä¿Â¼TerminalÊäÈëgulp
-## 4.ÒÔwapÎªÀı½øĞĞ×Ô¶¯»¯¹¹½¨
-### 4.1¾²Ì¬×ÊÔ´Ñ¹Ëõ¡£
-Ô­À´Ä¿Â¼:
+ç›®æ ‡ï¼š
+* Js,css, å›¾ç‰‡å‹ç¼©ï¼ˆgulp-uglifyï¼Œgulp-minify-cssï¼Œ gulp-imageminï¼‰ã€‚
+* js,csså…¬ç”¨æ–‡ä»¶è¿›è¡Œåˆå¹¶ï¼ˆgulp-concatï¼‰ï¼Œå‡å°‘httpè¯·æ±‚ã€‚
+* å‰ç«¯èµ„æºè·¯å¾„æ›¿æ¢,å¦‚æ›¿æ¢é¡µé¢èµ„æºå¼•ç”¨ï¼ˆgulp-revï¼Œgulp-rev-collectorï¼‰ã€‚
+* é™æ€èµ„æºcdnéƒ¨ç½².ï¼ˆé€šè¿‡å‚æ•°é…ç½®ï¼Œå®ç°æœ¬åœ°å¼€å‘ä¸çº¿ä¸Šåˆ‡æ¢ï¼‰ã€‚
+* cdnç¼“å­˜å¤„ç†ï¼ˆä½¿ç”¨MD5æ›¿æ¢ï¼Œç±»ä¼¼ï¼šå°†a.jsæ›¿æ¢ä¸ºa-sdf10de34.jsï¼‰ã€‚
+è¿‡ç¨‹ï¼š
+nodeç¯å¢ƒä¸‹å®‰è£…gulpä»¥åŠgulpæ’ä»¶ï¼Œç„¶åå½“å‰ç›®å½•Terminalè¾“å…¥gulp
+
+## 4.ä»¥wapä¸ºä¾‹è¿›è¡Œè‡ªåŠ¨åŒ–æ„å»º
+
+### 4.1é™æ€èµ„æºå‹ç¼©ã€‚
+åŸæ¥ç›®å½•:
 
 ![iamgee](https://github.com/huanglp47/wepapp_gulp/blob/master/project_before.png)
 
-Gulp¹¹½¨ºóÉú³ÉÄ¿Â¼£º
+Gulpæ„å»ºåç”Ÿæˆç›®å½•ï¼š
 
 ![iamgee](https://github.com/huanglp47/wepapp_gulp/blob/master/project_after.png)
 
-´úÂëÄÚ¿ª¹Ø²ÎÊı£º
+ä»£ç å†…å¼€å…³å‚æ•°ï¼š
 ```js
 //cdn
 exports._cdnPrefix = 'http://sztmassets.lrts.me';
 //exports._cdnPrefix = '';
-// true±íÊ¾¿ª·¢»·¾³£¬false±íÊ¾²âÊÔ»·¾³»òÕßÉú²ú»·¾³
+// trueè¡¨ç¤ºå¼€å‘ç¯å¢ƒï¼Œfalseè¡¨ç¤ºæµ‹è¯•ç¯å¢ƒæˆ–è€…ç”Ÿäº§ç¯å¢ƒ
 exports.test = false;
 ```
-_cdnPrefixÏàµ±ÓÚweb¹¤³ÌµÄ${assetsHost}£¬ testÏàµ±ÓÚ»·¾³ÇĞ»»²ÎÊı
-### 4.2 cdn¼ÓËÙ¼°»º´æ½â¾ö¡£
-½«distÄ¿Â¼·¢²¼µ½CDN¡£
+_cdnPrefixç›¸å½“äºwebå·¥ç¨‹çš„${assetsHost}ï¼Œ testç›¸å½“äºç¯å¢ƒåˆ‡æ¢å‚æ•°
+### 4.2 cdnåŠ é€ŸåŠç¼“å­˜è§£å†³ã€‚
+å°†distç›®å½•å‘å¸ƒåˆ°CDNã€‚
 
 Css:
 ```css
@@ -76,20 +78,20 @@ Css:
 
 Js:
 ```js
-<!--Éú²ú»·¾³-->
+<!--ç”Ÿäº§ç¯å¢ƒ-->
 <script type="text/javascript" src="http://sztmassets.lrts.me/wap/js/all_common-da5694a8bc.js"></script>
 ```
 
-¼ÓMD5ÎÄ¼şÖ¸ÎÆ£¬·¢²¼µÄÊ±ºò²ÉÓÃ·Ç¸²¸ÇÊ½·¢²¼£¬¼´Í¬Ò»¸öjs,cssÓĞ²»Í¬°æ±¾´æÔÚ£¬Ö»ÓĞĞŞ¸Ä¹ıµÄÎÄ¼şMD5Öµ²Å»á±ä£¬Æğµ½Ç¿»º´æ×÷ÓÃ
-MD5Ïàµ±ÓÚ¼Ó¡¯?v=${webVersion}¡¯Ğ§¹û£¬Ä¿µÄÈ¥»º´æ
-### 4.3ÎÄ¼şºÏ²¢
-ÔÚgulpfile.jsÄÚÖ¸¶¨ĞèÒªºÏ²¢µÄÎÄ¼şjs.css
+åŠ MD5æ–‡ä»¶æŒ‡çº¹ï¼Œå‘å¸ƒçš„æ—¶å€™é‡‡ç”¨éè¦†ç›–å¼å‘å¸ƒï¼Œå³åŒä¸€ä¸ªjs,cssæœ‰ä¸åŒç‰ˆæœ¬å­˜åœ¨ï¼Œåªæœ‰ä¿®æ”¹è¿‡çš„æ–‡ä»¶MD5å€¼æ‰ä¼šå˜ï¼Œèµ·åˆ°å¼ºç¼“å­˜ä½œç”¨
+MD5ç›¸å½“äºåŠ â€™?v=${webVersion}â€™æ•ˆæœï¼Œç›®çš„å»ç¼“å­˜
+### 4.3æ–‡ä»¶åˆå¹¶
+åœ¨gulpfile.jså†…æŒ‡å®šéœ€è¦åˆå¹¶çš„æ–‡ä»¶js.css
 ```js
-//ºÏ²¢Ö¸¶¨css
+//åˆå¹¶æŒ‡å®šcss
 gulp.task('concat', function() {
     return gulp.src(['public/css/base.css', 'public/css/layout.css'])
-        .pipe(concat('all_common.css'))//- ºÏ²¢ºóµÄÎÄ¼şÃû
+        .pipe(concat('all_common.css'))//- åˆå¹¶åçš„æ–‡ä»¶å
         .pipe(gulp.dest('public/css'))
 });
 ```
-ÎÄ¼şºÏ²¢ÀàËÆºóÌ¨µÄcombo·şÎñ£¬Ä¿µÄÊÇ¼õÉÙHTTPÇëÇóÊı
+æ–‡ä»¶åˆå¹¶ç±»ä¼¼åå°çš„comboæœåŠ¡ï¼Œç›®çš„æ˜¯å‡å°‘HTTPè¯·æ±‚æ•°
