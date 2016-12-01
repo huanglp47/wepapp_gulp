@@ -50,11 +50,11 @@ node环境下安装gulp以及gulp插件，然后当前目录Terminal输入gulp
 ### 4.1静态资源压缩。
 原来目录:
 
-![iamgee](https://github.com/huanglp47/myGulpProject/blob/master/project_before.png)
+![iamgee](https://github.com/huanglp47/wepapp_gulp/blob/master/project_before.png)
 
 Gulp构建后生成目录：
 
-![iamgee](https://github.com/huanglp47/myGulpProject/blob/master/project_after.png)
+![iamgee](https://github.com/huanglp47/wepapp_gulp/blob/master/project_after.png)
 
 代码内开关参数：
 ```js
