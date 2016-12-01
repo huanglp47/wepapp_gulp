@@ -46,8 +46,11 @@ npm install cnpm -g --registry=https://registry.npm.taobao.org，然后再cnpm insta
 * cdn缓存处理（使用MD5替换，类似：将a.js替换为a-sdf10de34.js）。
 过程：
 node环境下安装gulp以及gulp插件，然后当前目录Terminal输入gulp
-## 4.以wap为例进行自动化构建
-### 4.1静态资源压缩。
+
+### 4.以wap为例进行自动化构建
+
+#### 4.1静态资源压缩。
+
 原来目录:
 
 ![iamgee](https://github.com/huanglp47/wepapp_gulp/blob/master/project_before.png)
@@ -65,7 +68,7 @@ exports._cdnPrefix = 'http://sztmassets.lrts.me';
 exports.test = false;
 ```
 _cdnPrefix相当于web工程的${assetsHost}， test相当于环境切换参数
-### 4.2 cdn加速及缓存解决。
+#### 4.2 cdn加速及缓存解决。
 将dist目录发布到CDN。
 
 Css:
@@ -82,7 +85,7 @@ Js:
 
 加MD5文件指纹，发布的时候采用非覆盖式发布，即同一个js,css有不同版本存在，只有修改过的文件MD5值才会变，起到强缓存作用
 MD5相当于加’?v=${webVersion}’效果，目的去缓存
-### 4.3文件合并
+#### 4.3文件合并
 在gulpfile.js内指定需要合并的文件js.css
 ```js
 //合并指定css
