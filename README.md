@@ -50,10 +50,20 @@ node环境下安装gulp以及gulp插件，然后当前目录Terminal输入gulp
 ### 4.1静态资源压缩。
 原来目录:
 
+![iamgee](https://github.com/huanglp47/myGulpProject/blob/master/project_before.png)
+
 Gulp构建后生成目录：
 
-代码内开关参数：
+![iamgee](https://github.com/huanglp47/myGulpProject/blob/master/project_after.png)
 
+代码内开关参数：
+```js
+//cdn
+exports._cdnPrefix = 'http://sztmassets.lrts.me';
+//exports._cdnPrefix = '';
+// true表示开发环境，false表示测试环境或者生产环境
+exports.test = false;
+```
 _cdnPrefix相当于web工程的${assetsHost}， test相当于环境切换参数
 ### 4.2 cdn加速及缓存解决。
 将dist目录发布到CDN。
@@ -66,11 +76,8 @@ Css:
 
 Js:
 ```js
-//cdn
-exports._cdnPrefix = 'http://sztmassets.lrts.me';
-//exports._cdnPrefix = '';
-// true表示开发环境，false表示测试环境或者生产环境
-exports.test = false;
+<!--生产环境-->
+<script type="text/javascript" src="http://sztmassets.lrts.me/wap/js/all_common-da5694a8bc.js"></script>
 ```
 
 加MD5文件指纹，发布的时候采用非覆盖式发布，即同一个js,css有不同版本存在，只有修改过的文件MD5值才会变，起到强缓存作用
